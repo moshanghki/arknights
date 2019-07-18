@@ -1,0 +1,9 @@
+/* 3d旋转的舞台 沿x轴旋转 */
+h-3d-stage(deg = -45deg, distance = 200px)
+  transform-style preserve-3d
+  perspective distance
+  transform rotateX(deg)
+/* 3d旋转的元素 */
+h-3d-item(deg = 5deg)
+  transform rotateY(deg)
+  transition all .1s ease-in-out
