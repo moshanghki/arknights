@@ -32,7 +32,7 @@
 
 <script lang="ts">
     import { Vue, Component } from 'vue-property-decorator'
-    import LoadingBar from '@/components/loading/LoadingBar'
+    import LoadingBar from '@/components/loading/LoadingBar.vue'
 
     @Component({
         components: {
